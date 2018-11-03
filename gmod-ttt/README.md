@@ -7,6 +7,8 @@ in TTT, and remembering how to lay out a map.
 Six largeish interconnected rooms; should be enough space for an alright
 game as long as there aren't too many people.
 
+* https://steamcommunity.com/sharedfiles/filedetails/?id=1555472815
+
 
 ttt_mk_squares
 --------------
@@ -34,9 +36,13 @@ A snowy map, with a large open middle and some fiddly bits around the
 edges.  Experimenting with the usual TTT tropes: a tester, a traitor
 room, various traps and secrets.
 
+* https://steamcommunity.com/sharedfiles/filedetails/?id=1555490065
+
 
 ttt_mk_e1m1[_tex]
 -----------------
 
 An homage to the classic `e1m1` map from the original 1996 game Quake.
 Includes versions with and without real textures.
+
+* https://steamcommunity.com/sharedfiles/filedetails/?id=1555490563
