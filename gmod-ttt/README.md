@@ -33,3 +33,9 @@ ttt_mk_whiteout
 A snowy map, with a large open middle and some fiddly bits around the
 edges.  Experimenting with the usual TTT tropes: a tester, a traitor
 room, various traps and secrets.
+
+
+ttt_mk_e1m1
+-----------
+
+An homage to the classic `e1m1` map from the original 1996 game Quake.
