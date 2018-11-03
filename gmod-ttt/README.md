@@ -35,7 +35,8 @@ edges.  Experimenting with the usual TTT tropes: a tester, a traitor
 room, various traps and secrets.
 
 
-ttt_mk_e1m1
------------
+ttt_mk_e1m1[_tex]
+-----------------
 
 An homage to the classic `e1m1` map from the original 1996 game Quake.
+Includes versions with and without real textures.
