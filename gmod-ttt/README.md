@@ -29,6 +29,16 @@ I added enough things (including an entire underground zone) to
 hopefully make it playable, but it was never designed for gameplay.
 
 
+ttt_mk_wasteland
+----------------
+
+A small map with only a few traitor options.  This one has a proper 3D
+skybox, and includes AI node paths to make any spawned NPCs that little
+bit more effective.
+
+* https://steamcommunity.com/sharedfiles/filedetails/?id=1566900565
+
+
 ttt_mk_whiteout
 ---------------
 
