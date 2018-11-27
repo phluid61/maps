@@ -39,6 +39,14 @@ bit more effective.
 * https://steamcommunity.com/sharedfiles/filedetails/?id=1566900565
 
 
+ttt_mk_weird_stuff
+------------------
+
+Just like it says on the box.  Experimenting with features like
+displacements, and different clipping surfaces, and people in the
+skybox.  Probably sniper heaven.
+
+
 ttt_mk_whiteout
 ---------------
 
