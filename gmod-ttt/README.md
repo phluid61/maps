@@ -21,6 +21,13 @@ much -- but you can't see from cube to cube, so there's plenty of
 opportunity for shenanigans if you can split everybody up.
 
 
+ttt_mk_trenches
+---------------
+
+It's war.  Defend your entrenchments from the combine.  But watch out,
+there are traitors in your midst...
+
+
 ttt_mk_flufy
 ------------
 
