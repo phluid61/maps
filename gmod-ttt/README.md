@@ -1,3 +1,9 @@
+Published
+=========
+
+See the collection on the Steam Workshop:
+https://steamcommunity.com/sharedfiles/filedetails/?id=1615003823
+
 ttt_mk_bunker
 -------------
 
@@ -10,6 +16,15 @@ game as long as there aren't too many people.
 * https://steamcommunity.com/sharedfiles/filedetails/?id=1555472815
 
 
+ttt_mk_e1m1[_tex]
+-----------------
+
+An homage to the classic `e1m1` map from the original 1996 game Quake.
+Includes versions with and without real textures.
+
+* https://steamcommunity.com/sharedfiles/filedetails/?id=1555490563
+
+
 ttt_mk_squares
 --------------
 
@@ -20,6 +35,8 @@ I have no idea if there's any flow or rhythm to this map -- probably not
 much -- but you can't see from cube to cube, so there's plenty of
 opportunity for shenanigans if you can split everybody up.
 
+* https://steamcommunity.com/sharedfiles/filedetails/?id=1614989740
+
 
 ttt_mk_trenches
 ---------------
@@ -27,13 +44,16 @@ ttt_mk_trenches
 It's war.  Defend your entrenchments from the combine.  But watch out,
 there are traitors in your midst...
 
+* https://steamcommunity.com/sharedfiles/filedetails/?id=1615017940
 
-ttt_mk_flufy
-------------
 
-Started out as a proof-of-concept, recreating a scene from pictures.
-I added enough things (including an entire underground zone) to
-hopefully make it playable, but it was never designed for gameplay.
+ttt_mk_mazy
+-----------
+
+It's a bit of a maze, but shouldn't be too hard to navigate. A couple
+of traitor devices always add a little flavour.
+
+* https://steamcommunity.com/sharedfiles/filedetails/?id=1615001499
 
 
 ttt_mk_wasteland
@@ -46,14 +66,6 @@ bit more effective.
 * https://steamcommunity.com/sharedfiles/filedetails/?id=1566900565
 
 
-ttt_mk_weird_stuff
-------------------
-
-Just like it says on the box.  Experimenting with features like
-displacements, and different clipping surfaces, and people in the
-skybox.  Probably sniper heaven.
-
-
 ttt_mk_whiteout
 ---------------
 
@@ -64,10 +76,22 @@ room, various traps and secrets.
 * https://steamcommunity.com/sharedfiles/filedetails/?id=1555490065
 
 
-ttt_mk_e1m1[_tex]
------------------
+Unpublished
+===========
 
-An homage to the classic `e1m1` map from the original 1996 game Quake.
-Includes versions with and without real textures.
+ttt_mk_flufy
+------------
 
-* https://steamcommunity.com/sharedfiles/filedetails/?id=1555490563
+Started out as a proof-of-concept, recreating a scene from pictures.
+I added enough things (including an entire underground zone) to
+hopefully make it playable, but it was never designed for gameplay.
+
+
+ttt_mk_weird_stuff
+------------------
+
+Just like it says on the box.  Experimenting with features like
+displacements, and different clipping surfaces, and people in the
+skybox.  Probably sniper heaven.
+
+Includes node paths (in `graphs/`)
