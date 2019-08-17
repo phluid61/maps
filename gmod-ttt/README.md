@@ -16,6 +16,16 @@ game as long as there aren't too many people.
 * https://steamcommunity.com/sharedfiles/filedetails/?id=1555472815
 
 
+ttt_mk_diem6
+------------
+
+"Inspired" by a classic Quake deathmatch map.
+
+Simple traitor room, a couple of traps, but otherwise very few bells or whistles.
+
+* https://steamcommunity.com/sharedfiles/filedetails/?id=1837135700
+
+
 ttt_mk_e1m1[_tex]
 -----------------
 
