@@ -35,6 +35,15 @@ Includes versions with and without real textures.
 * https://steamcommunity.com/sharedfiles/filedetails/?id=1555490563
 
 
+ttt_mk_mazy
+-----------
+
+It's a bit of a maze, but shouldn't be too hard to navigate. A couple
+of traitor devices always add a little flavour.
+
+* https://steamcommunity.com/sharedfiles/filedetails/?id=1615001499
+
+
 ttt_mk_squares
 --------------
 
@@ -48,6 +57,21 @@ opportunity for shenanigans if you can split everybody up.
 * https://steamcommunity.com/sharedfiles/filedetails/?id=1614989740
 
 
+ttt_mk_strikeforce
+------------------
+
+Ever wonder what it would be like to play Warhammer 40,000 9th Edition,
+from the point of view of a mini? If so, you're pretty strange.
+
+This map is one representation of what it might be like to be
+approximately 1/32 your regular height and placed on a (relatively)
+giant 60"×44" table, in an impossibly (relatively) giant room,
+surrounded by ruins and terrain pieces and objectives and stuff, set up
+for a standard Strike Force mission.
+
+* https://steamcommunity.com/sharedfiles/filedetails/?id=2239704115
+
+
 ttt_mk_trenches
 ---------------
 
@@ -56,14 +80,9 @@ there are traitors in your midst...
 
 * https://steamcommunity.com/sharedfiles/filedetails/?id=1615017940
 
-
-ttt_mk_mazy
------------
-
-It's a bit of a maze, but shouldn't be too hard to navigate. A couple
-of traitor devices always add a little flavour.
-
-* https://steamcommunity.com/sharedfiles/filedetails/?id=1615001499
+**Note:** this pack contains two maps, `ttt_mk_trenches2` has some
+mildly tweaked geometry, and replaces all Combine soliders with
+headcrab-based shenanigans.
 
 
 ttt_mk_wasteland
