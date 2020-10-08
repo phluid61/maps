@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8538"
-	"mapversion" "113"
+	"mapversion" "115"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "113"
+	"mapversion" "115"
 	"classname" "worldspawn"
 	"coldworld" "0"
 	"detailmaterial" "detail/detailsprites"
@@ -30755,7 +30755,7 @@ entity
 	"id" "11216"
 	"classname" "env_explosion"
 	"fireballsprite" "sprites/zerogxplode.spr"
-	"iMagnitude" "150"
+	"iMagnitude" "50"
 	"parentname" "pendulum2"
 	"rendermode" "5"
 	"spawnflags" "2"
@@ -36531,9 +36531,9 @@ entity
 	"spawnflags" "1"
 	connections
 	{
-		"OnMapSpawn" "toner,SetAutoExposureMax,1.2,0,-1"
-		"OnMapSpawn" "toner,SetAutoExposureMin,0.5,0,-1"
-		"OnMapSpawn" "toner,SetBloomScale,0.8,0,-1"
+		"OnMapSpawn" "toner,SetAutoExposureMax,2.5,0,-1"
+		"OnMapSpawn" "toner,SetAutoExposureMin,0.8,0,-1"
+		"OnMapSpawn" "toner,SetBloomScale,0,0,-1"
 	}
 	"origin" "-1728 -1280 384"
 	editor

@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8538"
-	"mapversion" "53"
+	"mapversion" "59"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "16"
+	"nGridSpacing" "8"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "53"
+	"mapversion" "59"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -10672,8 +10672,8 @@ entity
 {
 	"id" "417"
 	"classname" "func_door"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
+	"disablereceiveshadows" "1"
+	"disableshadows" "1"
 	"dmg" "100"
 	"forceclosed" "0"
 	"gmod_allowphysgun" "1"
@@ -19929,7 +19929,7 @@ entity
 	"_AmbientScaleHDR" "1"
 	"_light" "248 244 237 400"
 	"_lightHDR" "-1 -1 -1 1"
-	"_lightscaleHDR" "0.7"
+	"_lightscaleHDR" "1"
 	"angles" "0 287 0"
 	"pitch" "-60"
 	"origin" "128 0 -32"
@@ -21796,7 +21796,7 @@ entity
 	"_inner_cone" "20"
 	"_light" "233 78 78 100"
 	"_lightHDR" "-1 -1 -1 1"
-	"_lightscaleHDR" "1"
+	"_lightscaleHDR" "1.2"
 	"_linear_attn" "1"
 	"_quadratic_attn" "0"
 	"angles" "-85 270 0"
@@ -21821,7 +21821,7 @@ entity
 	"_inner_cone" "20"
 	"_light" "233 78 78 100"
 	"_lightHDR" "-1 -1 -1 1"
-	"_lightscaleHDR" "1"
+	"_lightscaleHDR" "1.2"
 	"_linear_attn" "1"
 	"_quadratic_attn" "0"
 	"angles" "-80 90 0"
@@ -21846,7 +21846,7 @@ entity
 	"_inner_cone" "20"
 	"_light" "233 78 78 100"
 	"_lightHDR" "-1 -1 -1 1"
-	"_lightscaleHDR" "1"
+	"_lightscaleHDR" "1.2"
 	"_linear_attn" "1"
 	"_quadratic_attn" "0"
 	"angles" "-90 0 0"
@@ -21870,7 +21870,7 @@ entity
 	"_inner_cone" "20"
 	"_light" "233 78 78 100"
 	"_lightHDR" "-1 -1 -1 1"
-	"_lightscaleHDR" "1"
+	"_lightscaleHDR" "1.2"
 	"_linear_attn" "1"
 	"_quadratic_attn" "0"
 	"angles" "-85 270 0"
@@ -21895,7 +21895,7 @@ entity
 	"_inner_cone" "20"
 	"_light" "233 78 78 100"
 	"_lightHDR" "-1 -1 -1 1"
-	"_lightscaleHDR" "1"
+	"_lightscaleHDR" "1.2"
 	"_linear_attn" "1"
 	"_quadratic_attn" "0"
 	"angles" "-90 0 0"
@@ -21919,7 +21919,7 @@ entity
 	"_inner_cone" "20"
 	"_light" "233 78 78 100"
 	"_lightHDR" "-1 -1 -1 1"
-	"_lightscaleHDR" "1"
+	"_lightscaleHDR" "1.2"
 	"_linear_attn" "1"
 	"_quadratic_attn" "0"
 	"angles" "-80 90 0"
@@ -21955,8 +21955,9 @@ entity
 	"spawnflags" "1"
 	connections
 	{
-		"OnMapSpawn" "hdr,SetAutoExposureMax,1,0,-1"
+		"OnMapSpawn" "hdr,SetAutoExposureMax,2.5,0,-1"
 		"OnMapSpawn" "hdr,SetAutoExposureMin,0.8,0,-1"
+		"OnMapSpawn" "hdr,SetBloomScale,0,0,-1"
 	}
 	"origin" "192 -64 -32"
 	editor
@@ -22195,10 +22196,13 @@ entity
 {
 	"id" "3684"
 	"classname" "light"
+	"_castentityshadow" "0"
 	"_light" "255 255 255 100"
-	"_lightHDR" "-1 -1 -1 1"
+	"_lightHDR" "255 238 202 75"
 	"_lightscaleHDR" "1"
-	"_quadratic_attn" "1"
+	"_linear_attn" "1"
+	"_quadratic_attn" "0"
+	"spawnflags" "0"
 	"origin" "-808 -640 -64"
 	editor
 	{
@@ -25985,7 +25989,7 @@ entity
 {
 	"id" "7668"
 	"classname" "env_cubemap"
-	"origin" "-64 -160 -64"
+	"origin" "-64 -208 -64"
 	editor
 	{
 		"color" "0 0 255"
@@ -26018,6 +26022,36 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "8208"
+	"classname" "infodecal"
+	"angles" "0 0 0"
+	"texture" "decal_lock"
+	"origin" "-848 -672.253 -68"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "8214"
+	"classname" "infodecal"
+	"angles" "0 0 0"
+	"texture" "decal_short"
+	"origin" "-848 -592 -68"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
 	}
 }
 cameras

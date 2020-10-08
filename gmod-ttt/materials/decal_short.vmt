@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+	$basetexture decal_short
+	$surfaceprop Default
+	$decal 1
+	$decalscale 0.125
+	$translucent 1
+}
